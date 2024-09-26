@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(203, 203, 203);
+
+}
+
+.hero{
+    /* background: rgb(64, 64, 64); */
+    height: 100vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    position: relative;
+}
+nav{
+    color: rgb(18, 190, 252);
+
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(18, 190, 252);
+}
+.info
+{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.info h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.info span{
+    color: rgb(53, 116, 193);
+}
+.info p{
+    color: black;
+    line-height: 22px;
+}
+.info a{
+    background: blue ;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+     border-radius: 20px;
+}
+.right-img img{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    left: 82%;
+    right: 10%;
+    bottom: 10;
+    top: 30%;
+    right: 20%;
+    text-align: right;
+    transform: translateX(-50%);
+    transition: bottom 1s;
+}
+.right-img :hover .shape{
+    bottom: 20px;
+}
+.social {
+
+    margin-top: 20px;
+    margin-left: 8%;
+}
+.social a{
+    margin-right: 20px ;
+    color: black;
+    font-size: 35px;
+
+}
+.social a:hover 
+{
+    color: blue;
+    
+}
+.foot{
+    margin-r: 50px;
+    text-align: center;
+}
+.skill h2 ul li{
+    margin-right: 100px;
+}
+.abcd{
+    text-align: center;
+}
